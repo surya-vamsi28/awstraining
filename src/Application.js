@@ -34,7 +34,7 @@ function Application() {
               }
             />
             <Route path="/notes/:id" element={<Page />} />
-            <Route path="/" element={<p>Select a note.</p>} />
+            <Route path="/" element={<p>Select anything note.</p>} />
           </Routes>
         </section>
       </div>
